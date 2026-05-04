@@ -3,7 +3,6 @@ require('dotenv').config();
 
 const pool = new Pool({
     connectionString: process.env.DATABASE_URL,
-    // Required for external hosted DBs like Railway
     ssl: { rejectUnauthorized: false }
 });
 
@@ -40,6 +39,5 @@ const updateVolume = async (guildId, volume) => {
     );
 };
 
-// This is the clean, fixed export line!
-module.exports = { pool, initDB, getGuildSettings, updateVolum
-    e };
+module.exports = { pool, initDB, getGuildSettings, updateVolu
+    me };
