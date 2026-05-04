@@ -1,3 +1,22 @@
-"scripts": {
-  "start": "node index.js"
+{
+  "name": "aurelia",
+  "version": "1.0.0",
+  "description": "A production-ready Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.1",
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord-player": "^6.6.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "pg": "^8.11.3"
+  }
 }
