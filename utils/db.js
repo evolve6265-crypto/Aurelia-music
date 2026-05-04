@@ -40,5 +40,6 @@ const updateVolume = async (guildId, volume) => {
     );
 };
 
+// This is the line that was likely broken!
 module.exports = { pool, initDB, getGuildSettings, updateVolum
-  e };
+    e };
